@@ -1,0 +1,32 @@
+{
+    "name": "paquetes/productos",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/paquetes/productos",
+    "keywords": ["Laravel", "productos"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "paquetes\\productos\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "paquetes\\productos\\Tests\\": "tests"
+        }
+    }
+  
+}
