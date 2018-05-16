@@ -21,7 +21,7 @@ class productosServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__.'resources/views','productos');
       
         $this->publishes([
-            __DIR__.'/views' => base_path('/views'),
+            __DIR__.'/resources/views' => base_path('/resources/views'),
         ]);
 
         $this->publishes([
